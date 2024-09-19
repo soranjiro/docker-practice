@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # コンテナ起動時に実行されるコマンドを指定
-CMD ["python", "app.py"]
+CMD ["python", "hello.py"]
